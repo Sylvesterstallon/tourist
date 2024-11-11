@@ -1,0 +1,233 @@
+.exploreabia-container {
+  /* background: linear-gradient(180deg, #05213C 0%, rgba(7, 33, 56, 0) 100%); */
+  height: 100vh;
+  background-image: linear-gradient(180deg, #05213c 0%, rgba(7, 33, 56, 0) 40%),
+    url("../../assets/projects/img1.png");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-section {
+  margin-left: 80px;
+}
+.navbar-tittle {
+  display: flex;
+  align-items: center;
+}
+.navbar-tittle h1 {
+  display: flex;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: Volkhov;
+  font-weight: 700;
+  line-height: 40.79px;
+}
+.navbar-tittle {
+  text-decoration: none;
+}
+.nav-links-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav-links-items li {
+  margin-right: 50px;
+  position: relative;
+}
+.nav-links-items a {
+  text-decoration: none;
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.nav-links-items a::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+.nav-links-items a:hover::after {
+  width: 100%;
+}
+
+.link-img {
+  width: 20px;
+}
+.make-we-move {
+  margin-top: -10px;
+  margin-left: 140px;
+}
+.bar {
+  margin-top: 80px;
+  height: 70%;
+}
+/* .frame{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: -14px;
+} */
+.content {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  /* transform: translateY(90%, 40%); */
+  text-align: left;
+  margin-left: 15%;
+}
+.content h1 {
+  font-weight: 700;
+  font-size: 38px;
+  font-family: Bai jamjuree;
+  color: #ffffff;
+  line-height: 56px;
+}
+.content p {
+  width: 25%;
+  font-family: inter;
+  font-size: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 31px;
+}
+button {
+  font-family: Bai jamjuree;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  margin-top: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e54141;
+  color: #ffffff;
+}
+.icon2 {
+  margin-left: 3px;
+  margin-bottom: -4px;
+}
+.substract-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3.5%;
+}
+.tour {
+  position: absolute;
+  margin-right: 230px;
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #025299;
+}
+.hotels {
+  position: absolute;
+  margin-right: -230px;
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width:640px) {
+  .exploreabia-container{
+    padding: 15px;
+    height: 50vh;
+    background-position: center;
+  background-size: cover;
+  }
+  .navbar{
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .logo-section{
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-tittle h1{
+    font-size: 14px;
+    
+  }
+  .navbar-tittle img{
+    width: 16px;
+  }
+ .make-we-move img{
+  position: absolute;
+    display: flex;
+    margin-left: -95px;
+  }
+  .make-we-move .group5-img{
+    position: absolute;
+    margin-left:  -120px;
+    margin-top: -7px;
+  }
+  /* .make-we-move .group4-img{
+    position: absolute;
+    margin-left: -130px;
+  } */
+  
+  .nav-links-items li{
+    margin-right: 8px;
+    margin-top: 10px;
+ 
+  }
+  .nav-links-items a{
+   
+    font-size: 10px;
+  }
+  .bar{
+    height: 50%;
+  }
+  .content{
+    top: 15%;
+    width: 200%;
+  }
+  .content h1{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .content p{
+    margin-top: -2px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  button{
+    width: 80px;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .substract-img{
+    margin-top:  87.9px;
+  }
+  .substract-img img{
+    width: 30%;
+    
+  }
+   
+  .tour{
+    margin-left: 115px;
+  }
+  .hotels{
+    margin-right: -115px;
+  }
+  .substract-img p{
+    font-size: 12px;
+  }
+}

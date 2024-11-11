@@ -1,0 +1,306 @@
+.abiafooter-container {
+  padding: 50px;
+  height: 60vh;
+  margin: 4rem 6rem;
+}
+.abiafooter-content {
+  display: flex;
+  justify-content: space-between;
+}
+.abia-header {
+  display: flex;
+  margin-top: -6px;
+}
+.abia-header img {
+  width: 50px;
+  height: 50px;
+  margin-top: 4px;
+}
+.abia-header span {
+  font-family: Bai Jamjuree;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  color: #cf0e0e;
+}
+.abia-header h1 {
+  font-family: Bai Jamjuree;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  color: #008000;
+}
+
+.abia-logo {
+  display: flex;
+  margin-left: -160px;
+}
+.abia-logo img {
+  width: 40px;
+  height: 40px;
+}
+.abia-logo div {
+  margin-left: 8px;
+}
+.abia-logo h3 {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+
+  color: #cf0e0e;
+}
+.abia-logo p {
+  font-family: Bai Jamjuree;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  color: #3c3c3c;
+}
+.abia-logo2 {
+  position: absolute;
+  display: flex;
+  margin-left: 50px;
+  /* margin-left: -120px; */
+  /* margin-left: 245px; */
+}
+.abia-contacts-card {
+  display: flex;
+}
+.abia-logo2 img {
+  width: 40px;
+  height: 40px;
+}
+.abia-logo2 div {
+  margin-left: 8px;
+}
+.abia-logo2 h3 {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+
+  color: #cf0e0e;
+}
+.abia-logo2 p {
+  font-family: Bai Jamjuree;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  color: #3c3c3c;
+}
+.last-child-logo-icon img {
+  width: 130px;
+}
+.abia-footer-items li {
+  margin-bottom: 10px;
+  font-family: manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #181433;
+}
+.abia-footer-items h2 {
+  font-family: manrope;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #181433;
+  margin-bottom: 20px;
+}
+.abia-footer-items ul {
+  list-style: none;
+  padding: 0;
+}
+.list-item-content{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.abia-footer-item2 ul{
+  list-style: none;
+  padding: 0;
+}
+.abia-footer-item2 h2{
+  font-family: manrope;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #181433;
+  margin-bottom: 20px;
+}
+.abia-footer-item2 li{
+  margin-bottom: 10px;
+  font-family: manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #181433;
+}
+.abia-footer-item3 h2{
+  font-family: manrope;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #181433;
+  margin-bottom: 20px;
+}
+.abia-footer-item3 button {
+  position: absolute;
+  margin-top: -1px;
+  margin-left: -9px;
+  font-family: manrope;
+  font-size: 16px;
+  font-weight: 500;
+  width: 140px;
+  height: 40px;
+  background-color: #cf0e0e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.abia-footer-item3 input {
+  margin-bottom: 20px;
+  width: 280px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #757095;
+  background: #eeeeff;
+  border: none;
+  outline: none;
+}
+.abia-footer-item3 p{
+  font-family: manrope;
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #757095;
+}
+@media (max-width:640px) {
+  .abiafooter-container {
+    height: 100vh;
+    margin: 0rem;
+    padding: 8px;
+ 
+  }
+  .abiafooter-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .abia-logo2{
+     position: absolute;
+     margin-top: 100px;
+     margin-left: 1px;
+  }
+  .abia-contacts-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .abia-logo {
+    position: absolute;
+    display: flex;
+   margin-left: 2px;
+   margin-top: 60px;
+  }
+  .abia-logo img{
+    width: 35px;
+    height: 35px;
+  }
+  .abia-logo2 img {
+    width: 35px;
+    height: 35px;
+  }
+  .abia-header{
+    margin-left: 12px;
+  }
+  .abia-header h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .abia-header span{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .abia-header img {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  .last-child-logo-icon{
+    margin-top: 10px;
+    margin-left: 13px;
+  }
+  .last-child-logo-icon img{
+    width: 150px;
+  }
+  .abia-logo h3 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+        
+  .abia-logo2 h3 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+   .list-item-content{
+    
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+   }
+   .abia-footer-items h2{
+    margin-left: 10px;
+   }
+   .abia-footer-items ul li{
+    margin-left: 11px;
+    font-size: 20px;
+    font-weight: 300;
+   }
+   .abia-footer-item2 ul li{
+    margin-left: -57px;
+    font-size: 20px;
+    font-weight: 300;
+
+   }
+   .abia-footer-item2 h2{
+    margin-left: -56px;
+
+   }
+   .abia-footer-item3{
+    margin-top: 50px;
+   }
+   .abia-footer-item3 h2{
+    font-size: 30px;
+   }
+   .abia-footer-item3 button{
+     position: absolute;
+     width: 100px;
+     font-size: 14px;
+     margin-top: -1px;
+     height: 40px;
+   }
+   .abia-footer-item3 p{
+    width: 140%;
+    font-size: 13px;
+
+   }
+
+
+  
+}

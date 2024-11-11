@@ -1,0 +1,168 @@
+.testimonials-main-container {
+  margin-top: 680px;
+  background-image: url(../../assets/projects/testimonials.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+.testimonials-main-container h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: Bai jamjuree;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #0a599a;
+}
+.testimonials-img-content {
+  display: flex;
+  justify-content: center;
+  margin-left: 49px;
+  margin-top: 100px;
+}
+.testimonials-left {
+  margin-left: 60px;
+}
+.testimonials-right {
+  margin-right: 47px;
+}
+.chisom-mike-container {
+  margin-top: -390px;
+  margin-left: 108px;
+}
+.chisom-mike-body-content {
+  margin-top: 16px;
+  width: 77%;
+  font-family: bai jamjuree;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+}
+.oluogu-sylvester-container {
+  margin-top: -390px;
+  margin-left: 108px;
+}
+.oluogu-sylvester {
+  display: flex;
+}
+.oluogu-sylvester span {
+  margin-top: 52px;
+  margin-left: -126px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: bai jamjuree;
+  line-height: 24px;
+  color: #3c3c3c;
+}
+.oluogu-sylvester p {
+  margin-top: 28px;
+  margin-left: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: bai jamjuree;
+  color: #3c3c3c;
+  line-height: 24px;
+}
+.chisom-mike img {
+  margin-left: -18px;
+  margin-top: -18px;
+}
+
+.chisom-mike p {
+  margin-top: 24px;
+  margin-left: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: bai jamjuree;
+  color: #3c3c3c;
+  line-height: 24px;
+}
+.sylvester-body-content {
+  margin-top: 40px;
+  width: 77%;
+  font-family: bai jamjuree;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+}
+.stallone-profile-photo {
+  width: 17%;
+  height: 100px;
+  border-radius: 50%;
+}
+.chisom-mike {
+  display: flex;
+}
+.chisom-mike span {
+  margin-top: 50px;
+  margin-left: -101px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: bai jamjuree;
+  color: #3c3c3c;
+  line-height: 24px;
+}
+@media (max-width:640px) {
+  .testimonials-main-container{
+    height: 130vh;
+    background-size: cover;
+   }
+   .testimonials-main-container h1 {
+    font-size: 30px;
+    font-weight: 500;
+   
+  }
+  .testimonials-img-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+  }
+  .sylvester-body-content{
+    width: 100%;
+  }
+  .chisom-mike-body-content{
+    width: 129%;
+    margin-left: -104px;
+  }
+  .testimoni-img{
+    margin-top: 90px;
+    margin-left: 38px;
+    height: 50vh;
+    width: 100%;
+  }
+ .chisom-testimoni{
+  margin-left: -23px;
+  height: 50vh;
+  width: 104%;
+ }
+ .chisom-mike{
+  margin-left: -102px;
+ }
+ .sylvester-body-content{
+  margin-top: 30px;
+  width: 122%;
+  margin-left: -50px;
+ }
+ .stallone-profile-photo{
+  width: 32%;
+  height: 12vh;
+ }
+ .oluogu-sylvester{
+  margin-left: -50px;
+ }
+ .chisom-mike p{
+  margin-left: 3px;
+ }
+ .chisom-mike-body-content {
+  font-weight: 300;
+  font-size: 14px;
+}
+.sylvester-body-content {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+}

@@ -1,0 +1,24 @@
+.contiguity-container {
+  background-image: url("../../assets/projects/image\ 21.png");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+.location-img {
+  position: absolute;
+  left: 53%;
+  top: 185%;
+}
+.location-img img {
+  width: 50px;
+}
+@media (max-width: 640px) {
+  .contiguity-container {
+    height: 20vh;
+    background-size: cover;
+    margin-bottom: 40px;
+  }
+  .location-img img {
+    width: 30px;
+  }
+}

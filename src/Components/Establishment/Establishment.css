@@ -1,0 +1,23 @@
+.establishment-content {
+  background-image: url("../../assets/projects/img1.png");
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+.establishment-content h1 {
+  color: #ffffff;
+  font-family: odor mean chey;
+  font-size: 80px;
+  font-weight: 400;
+}
+@media (max-width: 640px) {
+  .establishment-content {
+    height: 50vh;
+  }
+  .establishment-content h1 {
+    font-size: 30px;
+  }
+}

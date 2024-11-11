@@ -1,0 +1,103 @@
+.Review-Container {
+  position: relative;
+  background-image: url("../../assets//projects//h1-background-img-1\ 1.png");
+  height: 600px;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+}
+.Review-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  text-align: center;
+}
+.Review-content h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: volkhov;
+  font-size: 50px;
+  font-weight: 700;
+  color: #181e4b;
+}
+.arrow-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-around;
+}
+.text {
+  font-family: poppins;
+  color: black;
+  flex-grow: 1;
+  padding: 0 10px;
+  position: relative;
+  top: -50px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.arrow {
+  top: -40px;
+  margin: 0 10px;
+  position: relative;
+}
+.Review-content h5 {
+  margin-top: -80px;
+  font-size: 15px;
+  color: black;
+}
+.edge-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (max-width: 640px) {
+  .Review-Container {
+    height: 500px;
+    background-size: contain;
+  }
+  .Review-content {
+    top: -30%;
+  }
+  .Review-content h1 {
+    font-size: 20px;
+  }
+  .review-image {
+    width: 80px;
+    height: 80px;
+  }
+  .arrow-container {
+    top: 20px;
+    text-align: center;
+    width: -100%;
+    padding: 10px;
+  }
+  .arrow {
+    position: absolute;
+    margin-top: 230px;
+    width: 50%;
+    align-items: left;
+    transform: translate(-100%, -10%);
+    /* height: 10px; */
+  }
+  .arrow .arrow:nth-child(2) {
+    position: absolute;
+    top: -80px;
+    left: -40px;
+    transform: rotate(180deg);
+  }
+  .text {
+    font-size: 13px;
+    line-height: -3.5;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  .Review-content h5 {
+    font-weight: 800;
+    margin-top: -50px;
+  }
+  /* .edge-img{
+  width: 50px;
+} */
+}

@@ -1,0 +1,32 @@
+.best-component {
+  height: 10vh;
+  text-align: center;
+  padding: 50px;
+}
+.best-component h1 {
+  font-family: inter;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45.99px;
+  color: #000000;
+}
+.best-component p {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: inter;
+  line-height: 29.05px;
+  color: #585858;
+}
+@media (max-width: 640px) {
+  .best-component {
+    height: 10vh;
+    margin: 1rem 2rem;
+  }
+  .best-component h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .best-component p {
+    font-size: 17px;
+  }
+}

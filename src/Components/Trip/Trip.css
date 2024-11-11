@@ -1,0 +1,235 @@
+.trip-component {
+  text-align: center;
+  margin: 8rem 4rem;
+  height: 70vh;
+}
+.trip-header-component {
+  margin-bottom: 10px;
+
+}
+.trip-header-component h4 {
+  color: #ffba0a;
+  font-size: 18px;
+  font-weight: 700;
+
+  font-family: poppins;
+}
+.trip-header-component h2 {
+  margin-top: 20px;
+  color: #181e4b;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: volkhov;
+}
+.trip-image-component {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.trip-photos img {
+  margin-top: 30px;
+}
+
+.trip-photos h4 {
+  margin-top: 60px;
+}
+.trip-photots-component1{
+   width: 20%;
+}
+.trip-photots-component2{
+  width: 20%;
+}
+.trip-photots-component3{
+  width: 20%;
+}
+.trip-photots-component4{
+  width: 20%;
+}
+.trip-header-component p {
+  margin-top: 10px;
+  color: #181e4b;
+  font-family: poppins;
+  font-size: 20px;
+
+}
+.trip-photots-component1 h4 {
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: poppins;
+  color: #1e1d4c;
+}
+.trip-photots-component1 p {
+  margin-top: 49px;
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 500;
+  color: #5e6282;
+
+}
+.trip-photots-component2 h4 {
+ 
+  font-size: 20px;
+  font-weight: 600;
+  font-family: poppins;
+  color: #1e1d4c;
+}
+.trip-photots-component2 p {
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 500;
+  color: #5e6282;
+}
+.trip-photots-component3 p {
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 500;
+  color: #5e6282;
+}
+.trip-photots-component3 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: poppins;
+  color: #1e1d4c;
+}
+.trip-photots-component4 h4 {
+  margin-top: -4px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: poppins;
+  color: #1e1d4c;
+}
+.trip-photots-component4 p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 500;
+  color: #5e6282;
+}
+
+@media (max-width: 640px) {
+  .trip-component {
+  
+    margin: 1rem 1rem;
+    height: 60vh;
+  }
+  .trip-header-component {
+    margin-top: -60px;
+    margin-bottom: 15px;
+  }
+  .trip-header-component p {
+    /* position: absolute; */
+    margin-top: -2px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .trip-header-component h2 {
+    font-size: 30px;
+    margin-left: -10px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .trip-header-component h4 {
+    text-align: center;
+  }
+  .trip-image-component {
+    display: flex;
+    /* justify-content: center; */
+    position: absolute;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .trip-photots-component1 {
+    text-align: left;
+    margin-left: -30px;
+    margin-bottom: -40px;
+  }
+  .trip-photots-component1 img {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .trip-photots-component1 h4 {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 110px;
+  }
+  .trip-photots-component1 p {
+    width: 80%;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 110px;
+  }
+  .trip-photots-component2 {
+    margin-top: 60px;
+    text-align: left;
+    margin-left: -30px;
+    margin-bottom: -40px;
+  }
+  .trip-photots-component2 h4 {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 110px;
+  }
+  .trip-photots-component2 p {
+    width: 75%;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 110px;
+  }
+  .trip-photots-component2 img {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .trip-photots-component3 {
+    margin-top: 60px;
+    text-align: left;
+    margin-left: -30px;
+    margin-bottom: -40px;
+  }
+  .trip-photots-component3 img {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .trip-photots-component3 p {
+    width: 75%;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 110px;
+  }
+  .trip-photots-component3 h4 {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 110px;
+  }
+  .trip-photots-component4 {
+    margin-top: 60px;
+    text-align: left;
+    margin-left: -30px;
+    margin-bottom: 10px;
+  }
+  .trip-photots-component4 img {
+    width: 80%;
+    margin-left: 30px;
+  }
+  .trip-photots-component4 p {
+    width: 370%;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 110px;
+  }
+  .trip-photots-component4 h4 {
+    width: 100%;
+    font-size: 16px;
+    margin-top: -70px;
+    margin-left: 110px;
+  }
+}

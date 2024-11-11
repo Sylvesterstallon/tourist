@@ -1,0 +1,162 @@
+.rectangle-contanier {
+  backdrop-filter: blur(50px);
+  background-image: url("../../assets//projects/Rectangle\ 24\ \(1\).png");
+  height: 10vh;
+  background-position: center;
+  background-size: cover;
+  padding: -1rem;
+}
+.rectangle-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content1 span {
+  font-family: Bai Jamjuree;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align: left;
+  color: #3c3c3c;
+}
+.content1 p {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #6d6d6d;
+}
+.content2 span {
+  font-family: Bai Jamjuree;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align: left;
+  color: #3c3c3c;
+}
+.content2 p {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #6d6d6d;
+}
+.content3 span {
+  font-family: Bai Jamjuree;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align: left;
+  color: #3c3c3c;
+}
+.content3 p {
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+
+  color: #6d6d6d;
+}
+.arrow1 {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.arrow-down {
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 1px;
+}
+.calender {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+.button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 7%;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+button img {
+  width: 17px;
+}
+@media (max-width: 640px) {
+  .rectangle-contanier {
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    padding: 5px;
+  }
+  .content1 span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+  }
+  .content1 p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  .arrow1 {
+    margin-left: 2px;
+  }
+  .content2 span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+  }
+  .content2 p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  .arrow-down{
+    margin-left: 2px;
+  }
+  .content3 span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+  }
+  .content3 p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  .S-icon{
+    width: 14px;
+    margin-top: 4px;
+  }
+  .button{
+  
+  margin-bottom: 10px;
+    font-size: 8px;
+    width: 18%;
+  
+  }
+  .calender{
+    width: 14px;
+  }
+  .arrow-down{
+    width: 14px;
+  }
+  .arrow1{
+    width: 14px;
+  }
+
+  
+}

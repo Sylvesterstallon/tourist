@@ -1,0 +1,99 @@
+.Europe-section {
+  display: flex;
+  margin: 4rem 5rem;
+  height: 100vh;
+}
+
+.first-europe {
+  display: flex;
+  /* position: relative; */
+  flex-direction: column;
+  /* width: 80%; */
+  text-align: start;
+  padding: 20px;
+}
+.first-europe h4 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: poppins;
+  color: #ffba0a;
+}
+.first-europe h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: volkhov;
+  padding-top: 10px;
+  color: #181e4b;
+}
+.first-europe p {
+  width: 63%;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: poppins;
+  color: #000000;
+  padding-top: 25px;
+}
+.image-column {
+  text-align: center;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  z-index: 99;
+}
+.image-column p {
+  font-family: poppins;
+  text-align: center;
+  font-size: 18px;
+  color: #181e4b;
+  margin-left: 20px;
+  margin-top: -14%;
+}
+
+.first-europe img {
+  width: 90%;
+  height: auto;
+  margin-top: 60%;
+  flex-wrap: wrap;
+}
+.europe-tunnel {
+  display: flex;
+  flex: -1;
+  position: relative;
+}
+.europe-tunnel img {
+  height: 84.5vh;
+  width: 100%;
+  margin-right: 140px;
+}
+
+.overlap {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 640px) {
+  .Europe-section {
+    height: 45vh;
+    flex-direction: column;
+    margin: 4rem 2rem;
+  }
+  .first-europe h4 {
+    text-align: left;
+  }
+  .first-europe h2 {
+    font-size: 20px;
+    text-align: left;
+  }
+  .first-europe p {
+    font-size: 13px;
+    width: 100%;
+  }
+  .image-column p {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 1px;
+    margin-top: -18px;
+  }
+  .europe-tunnel {
+    display: none;
+  }
+}

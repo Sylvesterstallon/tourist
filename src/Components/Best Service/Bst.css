@@ -1,0 +1,261 @@
+.best-service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 80vh;
+  margin: 2rem 8rem;
+}
+.best-service-left {
+  width: 50%;
+}
+.best-service-right {
+  width: 50%;
+  position: relative;
+}
+.Background-Pic {
+  width: 100%;
+  position: relative;
+  margin-left: 30%;
+  top: -5%;
+}
+.best-service-left h3 {
+  color: #ffba0a;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: poppins;
+}
+.best-service-left h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: volkhov;
+  color: #181e4b;
+}
+.image-group {
+  margin-top: 60px;
+}
+
+.picture1 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.picture2 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.picture3 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.picture1 h4 {
+  margin-left: 20px;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: poppins;
+}
+.picture2 h4 {
+  margin-left: 20px;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: poppins;
+}
+.picture3 h4 {
+  margin-left: 20px;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: poppins;
+}
+.picture1 p {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: poppins;
+}
+.picture2 p {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: poppins;
+}
+.picture3 p {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #5e6282;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: poppins;
+}
+.image-group-container {
+  background-color: #fff;
+  border: 9px solid #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 75px;
+  margin-left: 70px;
+  box-shadow: 0px 1.85px 3.15px 0px #00000001;
+  box-shadow: 0px 8.15px 6.52px 0px #00000002;
+
+  box-shadow: 0px 20px 13px 0px #00000003;
+
+  box-shadow: 0px 38.52px 25.48px 0px #00000003;
+
+  box-shadow: 0px 64.81px 46.85px 0px #00000004;
+
+  box-shadow: 0px 100px 80px 0px #0b74ca05;
+
+}
+.image-group-container h4{
+  margin-top: 10px;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: #080809;
+
+}
+.image-group-container p{
+  margin-top: 10px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #84829A;
+
+}
+.icons{
+  margin-top: 15px;
+}
+.miniphoto{
+ display: flex;
+ margin-left: 80%;
+ margin-top: -80px;
+}
+.mini-img{
+  height: 10vh;
+  z-index: 99;
+  border-radius: 50%;
+}
+.miniphoto h4{
+  margin-top: 5px;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 18px;
+  color: #080809;
+
+}
+.miniphoto p{
+  margin-top: 10px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #84829A;
+}
+.miniphoto div{
+  margin-top: -14px;
+  margin-left: 10px;
+  z-index: 99;
+}
+.miniphoto span{
+  color: #ffba0a;
+}
+.love-img{
+  margin-top: 30px;
+
+}
+.wrapper {
+  width: 230px;
+}
+
+@media (max-width:640px) {
+  .best-service-container{
+    display: grid;
+    flex-direction: row;
+   place-items: center;
+    padding: 10px;
+    height: 120vh;
+    margin: 2rem 1rem;
+  
+  }
+  .best-service-left{
+    position: relative;
+    width: 100%;
+    margin-top: -350px;
+    margin-bottom: 350px;
+    padding: 20px;
+  }
+  .best-service-right{
+    align-items: center;
+    justify-self: center;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+  
+    margin-right:20%;
+    margin-top: -40px;
+
+  }
+  .best-service-left h3{
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .best-service-left h2{
+    font-size: 19px;
+    line-height: 1.5;
+  }
+  .image-group{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Background-Pic{
+ 
+    height: 100%;
+    width: 120%;
+   
+  }
+  .wrapper{
+    width: 130%;
+    height: 100%;
+   margin-bottom: 20px;
+  }
+  .image-group-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+    margin-top: 40px;
+
+  }
+  
+  .image-group-container h4 p{
+    margin-right: -40px;
+  }
+  .miniphoto{
+    
+    margin-top: -80px;
+    margin-right: -10px;
+  }
+  .mini-img{
+    width: 60px;
+    height: 7vh;
+  }
+
+  .icons{
+    width: 120px;
+  }
+  .picture1 p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .picture2 p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .picture3 p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+}

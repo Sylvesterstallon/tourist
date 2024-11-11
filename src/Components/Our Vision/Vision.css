@@ -1,0 +1,162 @@
+.vision-component {
+  background-image: url("../../assets/projects/Rectangle\ 2508.png");
+  background-position: center;
+  background-size: cover;
+  height: 118vh;
+  margin-top: 70px;
+  padding: 2rem 8rem;
+}
+.vision-header {
+  width: 45%;
+}
+.vision-component h1 {
+  color: #0a599a;
+  font-size: 36px;
+  font-family: inter;
+  font-weight: 700;
+  line-height: 56px;
+}
+.vision-component p {
+  font-size: 18px;
+  font-family: inter;
+  font-weight: 400;
+  line-height: 26px;
+  color: #3c3c3c;
+}
+.vision-component button {
+  position: absolute;
+
+  display: inline-block;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-family: Bal jamjuree;
+  font-weight: 700;
+  height: 40px;
+  padding: 20px, 30px, 20px, 30px;
+  background-color: #e54141;
+  color: #ffffff;
+  line-height: -50px;
+  margin-top: 20px;
+
+  gap: 30px;
+  vertical-align: middle;
+}
+.icon {
+  position: relative;
+  align-items: center;
+  display: inline-block;
+  margin-bottom: -3px;
+  margin-right: 3px;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-box {
+  position: absolute;
+}
+.image-box img {
+  object-fit: cover;
+  width: 250px;
+}
+.image-box h4 {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: bai jamjuree;
+  color: #ffffff;
+}
+.top {
+  left: 50%;
+  transform: translateX(15%);
+}
+.left {
+  right: 6.5%;
+  transform: translateY(30%);
+}
+.right {
+  transform: translate(65%, 100%);
+}
+.bottom {
+  transform: translate(-37%, 60%);
+}
+.bottom h4 {
+  transform: translate(22%, -500%);
+}
+.left h4 {
+  transform: translate(30%, -440%);
+}
+.right h4 {
+  transform: translate(25%, -400%);
+}
+.top h4 {
+  transform: translate(30%, -450%);
+}
+@media (max-width:640px) {
+  .vision-component{
+    height: 75vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  .vision-header{
+    width: 100%;
+  }
+  .image-container img{
+    width: 130px;
+    object-fit: cover;
+    
+  }
+  .image-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  .image-box{
+    position: absolute;
+    margin-top: 370px;
+    align-items: center;
+  }
+  .image-box h4{
+    font-size: 10px;
+  }
+  .top{
+    transform: translate(-50%);
+  }
+  .top h4{
+    transform: translate(25%, -570%);
+  }
+  .left{
+    transform: translate(11%, 30%);
+  }
+  .bottom{
+    transform: translate(-105%, 60%);
+  }
+  .bottom h4{
+    transform: translate(14%, -560%);
+  }
+  .right{
+    transform: translate(-0%, 85%);
+  }
+  .right h4{
+    transform: translate(3%, -530%);
+  }
+  .left h4{
+    transform: translate(19%, -550%);
+  }
+
+  .vision-component button{
+    font-size: 11px;
+  }
+  .vision-component h1 {
+    font-size: 26px;
+  }
+  .vision-component p {
+    font-size: 14px;
+  }
+}

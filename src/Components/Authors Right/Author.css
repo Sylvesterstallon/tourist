@@ -1,0 +1,15 @@
+.Author-write-container {
+                    text-align: center;
+                  }
+                  .Author-write-container h5 {
+                    font-size: 15px;
+                    font-weight: 500;
+                    font-family: manrope;
+                    line-height: 26px;
+                    color: #181433;
+                  }
+                  @media (max-width: 640px) {
+                    .Author-write-container{
+                      height: 0vh;
+                    }
+                  }

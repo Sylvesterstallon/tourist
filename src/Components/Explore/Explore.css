@@ -1,0 +1,131 @@
+.explore-container {
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+.image1 {
+  color: #1e1e1e7a;
+  width: 100%;
+  height: auto;
+  /* margin: 0;
+  height: 0; */
+}
+.image2 {
+  color: #1e1e1e7a;
+  width: 100%;
+  height: auto;
+}
+.left-side,
+.right-side {
+  position: relative;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+/* .image-overlay {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+.right-side h4 {
+  color: #ffefec;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  transform: translate(-5%, -50%);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: poppins;
+  line-height: 27px;
+}
+.right-side h2 {
+  color: #ffffff;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  font-size: 45px;
+  font-weight: 700;
+  font-family: volkhov;
+  line-height: 71px;
+}
+.left-side h4 {
+  color: #ffefec;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  transform: translate(-5%, -50%);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: poppins;
+  line-height: 27px;
+}
+.left-side h2 {
+  color: #ffffff;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  font-size: 45px;
+  font-weight: 700;
+  font-family: volkhov;
+  line-height: 71px;
+}
+@media (max-width: 640px) {
+  .explore-container {
+    display: block;
+    height: 40vh;
+    margin: 2rem 2rem;
+  }
+  .left-side,
+  .right-side {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    margin: 3px;
+  }
+  .right-side h4 {
+    color: #ffefec;
+    position: absolute;
+    text-decoration: underline;
+    top: 65%;
+    transform: translate(-177%, -50%);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: poppins;
+  }
+  .right-side h2 {
+    color: #ffffff;
+    position: absolute;
+    top: 85%;
+    transform: translate(-115%, -50%);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: volkhov;
+  }
+  .left-side h4 {
+    text-decoration: underline;
+    color: #ffefec;
+    position: absolute;
+    transform: translate(-177%, -50%);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: poppins;
+    top: 65%;
+  }
+  .left-side h2 {
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-100%, -50%);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: volkhov;
+    top: 87%;
+  }
+  .image1 {
+    width: 100%;
+    border-radius: 10px;
+  }
+}

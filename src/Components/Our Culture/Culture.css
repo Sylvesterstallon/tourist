@@ -1,0 +1,44 @@
+.culture-component{
+   background-image: url("../../assets/projects/Rectangle\ 19353.png");
+   height: 65vh;
+   background-position: center;
+   background-size: cover;
+   color: #1e1e1e;
+
+}
+.culture-text{
+                    text-align: center;
+                    transform: translate(-0%, 45%);
+                     
+
+}
+.culture-text h1{
+  color: #ffffff;
+  font-family: Yesteryear;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 223px;
+}
+.culture-text img{
+                    transform: translate(-40%, -160%);
+}
+@media (max-width:640px) {
+  .culture-component{
+    height: 15vh;
+    align-items: center;
+  }
+  .culture-text h1{
+    color: #ffffff;
+    font-size: 50px;
+    transform: translate(0% , -75%);
+  
+  }
+  .culture-text img{
+    width: 40px;
+    transform: translate(0% , -745%);
+  }
+  
+
+  
+} 
